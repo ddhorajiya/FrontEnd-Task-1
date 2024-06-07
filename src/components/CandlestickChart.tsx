@@ -39,7 +39,7 @@ const CandlestickChart: React.FC<CandlestickChartProps> = ({ data }) => {
         <Chart id={1} yExtents={d => [d.high, d.low]}>
           <XAxis />
           <YAxis />
-          <CandlestickSeries />
+          <CandlestickSeries width={5} /> {/* Adjust width as needed */}
           <OHLCTooltip origin={[-40, 0]} />
         </Chart>
       </ChartCanvas>

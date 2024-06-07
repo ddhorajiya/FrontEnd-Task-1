@@ -54,11 +54,9 @@ const App: React.FC = () => {
       </header>
       <main>
         <section>
-          <h2>Candlestick Chart</h2>
           <CandlestickChart data={candlestickData} />
         </section>
         <section>
-          <h2>Key Ratios</h2>
           <KeyRatios data={financialData} />
         </section>
         <section>
