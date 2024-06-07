@@ -1,0 +1,32 @@
+/* CandlestickChart.css */
+
+.chart-container {
+  margin: 20px auto;
+  max-width: 800px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align the content to the left */
+}
+
+.chart-header {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.chart {
+  height: 400px;
+  width: 100%;
+  text-align: left;
+}
+
+.axis text {
+  fill: #333;
+  font-size: 12px;
+}

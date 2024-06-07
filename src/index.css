@@ -1,0 +1,24 @@
+/* index.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+/* Add any other global styles here */
+

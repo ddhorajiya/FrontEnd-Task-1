@@ -1,0 +1,36 @@
+/* KeyRatios.css */
+
+.key-ratios {
+  margin-top: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.key-ratios h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.key-ratios ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.key-ratios li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #555;
+  width: 45%;
+}
+
+  
